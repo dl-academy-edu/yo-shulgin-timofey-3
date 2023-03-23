@@ -1,0 +1,34 @@
+.footer__settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__h__one {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #070707;
+}
+
+.footer__p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #070707;
+  height: 0;
+  width: 269px;
+  margin-top: -3px;
+}
+
+.footer__button__send {
+  border: none;
+  background-color: #070707;
+}
