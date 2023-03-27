@@ -5,7 +5,9 @@ let deadInside = true;
 let brain = null;
 let x;
 let id = Symbol("id")
-let user = { name: "Серёжа"}
+let user = {
+    name: "Серёжа"
+}
 
 console.log(Number(num), String(num), Boolean(num));
 console.log(Number(crypto), String(crypto), Boolean(crypto));
