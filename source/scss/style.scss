@@ -36,10 +36,193 @@
   то он должен был бы быть в файле _blocks/coming-soon.scss
 */
 
+// body {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
+
 a {
   text-decoration: none;
 }
 
 li {
   list-style-type: none;
+}
+
+main {
+  margin-left: 292px;
+  margin-top: -50px;
+}
+
+.main__section__name {
+  font-family: 'Gilroy';
+  font-style: normal;
+  // font-weight: 400;
+  font-size: 47px;
+  line-height: 57px;
+  color: #070707;
+  width: 280px;
+  margin-bottom: -28px;
+}
+
+.main__desc__about__me__div {
+  display: flex;
+  margin-left: -43px;
+}
+
+.main__desc__about__me {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+  margin-top: 106px;
+  width: 208px;
+}
+
+.main__banner__slider__button__left {
+  border: none;
+  background-image: url("../img/left__arrow.png");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.main__banner__slider__button__left:hover {
+  border: none;
+  background-image: url("../img/left__arrow.png");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.main__banner__slider__button__right {
+  border: none;
+  background-image: url("../img/right__arrow.png");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.main__banner__slider__button__right:hover {
+  border: none;
+  background-image: url("../img/right__arrow.png");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.main__slider__buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.main__banner__slider__circles {
+  background: none;
+  border: none;
+  background-image: url("../img/gray__circle.png");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.main__banner__slider__circles__ul {
+  display: flex;
+  gap: 0px 20px;
+  margin-left: -45px;
+}
+
+.about__me__section {
+  background-color: #F6F6F6;
+  width: auto;
+  height: auto;
+}
+
+.about__me__section__h__three {
+  padding-top: 46px;
+  padding-bottom: 30px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #070707;
+}
+
+.about__me__section__ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px 0px;
+}
+
+.about__me__section__ul__message__li {
+  width: 680px;
+  justify-content: end;
+}
+
+.skills__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills__section__h__four {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #070707;
+}
+
+.skills__section__i__work {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #070707;
+  margin-top: -24px;
+}
+
+.skills__section__ul {
+  display: flex;
+  gap: 0% 14%;
+  margin-left: -30%;
+}
+
+.skills__section__ul__li__one {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+.skills__section__ul__li__div__prog__bar {
+  display: flex;
+  gap: 0px 4px;
+  height: 10px;
 }

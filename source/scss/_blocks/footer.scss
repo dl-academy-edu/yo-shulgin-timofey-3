@@ -1,7 +1,3 @@
-footer {
-  margin-top: 260px;
-}
-
 .footer__settings {
   display: flex;
   flex-direction: column;
@@ -54,12 +50,12 @@ footer {
 .footer__button__send:hover {
   background: white;
   border: #070707 solid;
-  border-radius: 230px;
+  border-radius: 30px;
   color: #070707;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 29px;
-  padding-right: 29px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
@@ -100,3 +96,37 @@ footer {
   padding-left: 21px;
   padding-right: 21px;
 }
+
+.footer__social__networks__wrapper__one {
+  display: flex;
+  gap: 0px 7px;
+}
+
+.footer__ul__design__by {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__social__networks__div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px 0px;
+}
+
+.footer__design__p {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #828282;
+}
+

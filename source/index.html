@@ -19,6 +19,48 @@
   </head>
   <body>
     @@include('blocks/header.html')
+    <main>
+      <section>
+        <div>
+          <ul class="main__desc__about__me__div">
+            <li class="main__section__name"><h3>Timofei Shulgin</h2></li>
+            <li class="main__desc__about__me"><p>Future front-end developer 15 years old, Tolyatti</p></li>
+          </ul>
+        </div>
+        <div>
+          <img src="./img/my__photo.jpg" alt="My photo" width="1000px">
+          <div class="main__slider__buttons">
+            <button class="main__banner__slider__button__left" type="button"></button>
+            <ul class="main__banner__slider__circles__ul">
+              <li><button class="main__banner__slider__circles" type="button"></button></li>
+              <li><button class="main__banner__slider__circles" type="button"></button></li>
+              <li><button class="main__banner__slider__circles" type="button"></button></li>
+              <li><button class="main__banner__slider__circles" type="button"></button></li>
+            </ul>
+            <button class="main__banner__slider__button__right" type="button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+      <section class="about__me__section">
+        <h4 class="about__me__section__h__three">About me</h4>
+        <ul class="about__me__section__ul">
+          <li class="about__me__section__ul__message__li"><img src="./img/message_bord__1.png" alt="Message border first" width="478px" height="135px"></li>
+          <li><img src="./img/message_bord__2.png" alt="Message border second" width="478px" height="135px"></li>
+          <li class="about__me__section__ul__message__li"><img src="./img/message_bord__3.png" alt="Message border third" width="478px" height="135px"></li>
+        </ul>
+      </section>
+      <section class="skills__section">
+        <h4 class="skills__section__h__four">Skills</h4>
+        <p class="skills__section__i__work">I work in such programs as</p>
+        <ul class="skills__section__ul">
+          <li class="skills__section__ul__li__one"><img src="./img/html__logo.png" alt="Html logotype" width="79px" height="90px"><p>HTML 5</p><div class="skills__section__ul__li__div__prog__bar">90%<img src="./img/html__rect.png" alt="Html bar" width="120px" height="9px"></div></li>
+          <li class="skills__section__ul__li__one"><img src="./img/css__logo.png" alt="Css logotype" width="79px" height="90px"><p>CSS/SCSS</p><div class="skills__section__ul__li__div__prog__bar">88%<img src="./img/css__bar.png" alt="Css bar" width="142px" height="9px"></div></li>
+          <li class="skills__section__ul__li__one"><img src="./img/java__logo.png" alt="Javascript logotype" width="68px" height="90px"><p>JavaScript</p><div class="skills__section__ul__li__div__prog__bar">12%<img src="./img/js__bar.png" alt="Js bar" width="142px" height="9px"></div></li>
+          <li class="skills__section__ul__li__one"><img src="./img/git__logo.png" alt="Git logotype"  width="90px" height="90px"><p>Git/GitHub</p><div class="skills__section__ul__li__div__prog__bar">90%<img src="./img/empty__prog__bar.png" alt="Empty progress bar" width="142px" height="9px"></div></li>
+          <li class="skills__section__ul__li__one"><img src="./img/figma__logo.png" alt="Figma logotype" width="60px" height="90px"><p>Figma</p><div class="skills__section__ul__li__div__prog__bar">90%<img src="./img/empty__prog__bar.png" alt="Empty progress bar" width="142px" height="9px"></div></li>
+        </ul>
+      </section>
     @@include('blocks/footer.html')
     <script src="js/app.js" defer></script>
   </body>
