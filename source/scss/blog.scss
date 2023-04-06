@@ -1,0 +1,41 @@
+.main__section__name__blog {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 47px;
+    line-height: 57px;
+    color: #070707;
+    width: 280px;
+    padding-top: 4%;
+    padding-left: 5px;
+}
+
+.filter__section__tags {
+    border: none;
+    width: 155px;
+}
+
+.filter__section__tags__legend {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070707;
+}
+
+.filter__section__tags__ul__checkboxes {
+    display: flex;
+    gap: 0px 5px;
+    padding-left: 0px;
+}
+
+.filter__section__tags__ul__checkbox__standart__blue:hover {
+    content: "";
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('../img/blue__check__bef.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
