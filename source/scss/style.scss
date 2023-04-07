@@ -227,3 +227,92 @@ main {
   gap: 0px 4px;
   height: 10px;
 }
+
+.send__message__fieldset__form {
+  border: 2.5px solid #070707;
+}
+
+.send__message__form__input__text__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px 0px;
+}
+
+.send__message__form__input__text__fieldset__special {
+  border: none;
+}
+
+.send__message__fieldset__form__first__part {
+  border: none;
+  display: flex;
+}
+
+
+/* стилизация текста вокруг инпутов начата */
+.send__message__form__text__input__fieldset__label {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #070707;
+}
+
+.send__message__fieldset__form__label__star__color {
+  color: #EB3617;
+}
+
+.send__message__form__text__input__fieldset__label__special {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E5E5E5;
+}
+
+/* стилизация текста вокруг инпутов окончена */
+/* бордер у инпутов начат */
+
+.send__message__form__text__input__fieldset__border {
+  border: 2.5px solid #E5E5E5;
+  width: 290px;
+  height: 44px;
+}
+
+.send__message__form__text__input__fieldset__label__special {
+  border: 2.5px solid #E5E5E5;
+  width: 620px;
+  height: 150px;
+}
+
+/* бордер у инпутов закончен */
+
+.send__message__form__input__text__fieldset__special__checkbox {
+  // position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.send__message__form__input__text__fieldset__special__checkbox+.send__message__form__text__input__fieldset__label__special {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.send__message__form__legend {
+  display: none;
+}
