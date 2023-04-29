@@ -27,17 +27,21 @@
             <li class="main__desc__about__me"><p>Future front-end developer 15 years old, Tolyatti</p></li>
           </ul>
         </div>
-        <div>
-          <img src="./img/my__photo.jpg" alt="My photo" width="1000px">
-          <div class="main__slider__buttons">
-            <button class="main__banner__slider__button__left" type="button"></button>
-            <ul class="main__banner__slider__circles__ul">
-              <li><button class="main__banner__slider__circles" type="button"></button></li>
-              <li><button class="main__banner__slider__circles" type="button"></button></li>
-              <li><button class="main__banner__slider__circles" type="button"></button></li>
-              <li><button class="main__banner__slider__circles" type="button"></button></li>
-            </ul>
-            <button class="main__banner__slider__button__right" type="button"></button>
+        <div class="container">
+          <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__inner-wrapper">
+                <div class="slider__slide">This is 1 slide</div>
+                <div class="slider__slide">This is 2 slide</div>
+                <div class="slider__slide">This is 3 slide</div>
+                <div class="slider__slide">This is 4 slide</div>
+              </div>
+            </div>
+            <div class="slider__bottom-panel">
+              <button class="slider__button-css-left slider__button-back-js"></button>
+              <div class="slider__pagination slider__pagination-js"></div>
+              <button class="slider__button-css-right slider__button-next-js"></button>
+            </div>
           </div>
         </div>
       </section>
@@ -61,10 +65,27 @@
           <li class="skills__section__ul__li__one"><img src="./img/figma__logo.png" alt="Figma logotype" width="60px" height="90px"><p>Figma</p><div class="skills__section__ul__li__div__prog__bar">90%<img src="./img/empty__prog__bar.png" alt="Empty progress bar" width="142px" height="9px"></div></li>
         </ul>
       </section>
+      <section class="slider__section">
+        <h5><p>Portfolio</p></h5>
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__inner-wrapper">
+              <div class="slider__slide"><img src="./img/slide1.png" alt="slide 1"></div>
+              <div class="slider__slide"><img src="./img/slide2.png" alt="slide 2"></div>
+              <div class="slider__slide"><img src="./img/slide3.png" alt="slide 3"></div>
+              <div class="slider__slide"><img src="./img/slide4.png" alt="slide 4"></div>
+            </div>
+          </div>
+          <div class="pagination">
+            <button class="slider__button"></button>
+            <button class="slider__button"></button>
+          </div>
+        </div>
+      </section>
     @@include('blocks/footer.html')
-    <div>
-      <div>
-          <form class="send__message__fieldset__form">
+          <div class="sendMessageFormClosed">
+           <div class="send__message__div">
+            <form class="send__message__fieldset__form">
               <fieldset class="send__message__fieldset__form__first__part">
                   <legend class="send__message__form__legend">Send message</legend>
                   <fieldset class="send__message__form__input__text__fieldset">
@@ -78,7 +99,7 @@
                       <input class="send__message__form__text__input__fieldset__border" type="text" name="userSubjectInput">
                   </fieldset>
               </fieldset>
-              <fieldset class="send__message__fieldset__form__first__part">
+              <fieldset class="send__message__fieldset__form__sec__part">
                   <legend class="send__message__form__legend">Send message</legend>
                   <fieldset class="send__message__form__input__text__fieldset">
                       <legend class="send__message__form__legend">Send message</legend>
@@ -105,9 +126,10 @@
               </fieldset>
           </fieldset>
       </form>
-      </div>
-      <button type="button"></button>
+      <button class="sendMessageOffButton" name="closeSendMess" type="button"></button>
   </div>
-    <script src="js/app.js" defer></script>
+    <script src="js/app.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

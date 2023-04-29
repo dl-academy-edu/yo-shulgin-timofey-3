@@ -83,66 +83,44 @@ main {
   width: 208px;
 }
 
-.main__banner__slider__button__left {
-  border: none;
-  background-image: url("../img/left__arrow.png");
-  background-repeat: no-repeat;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-}
 
-.main__banner__slider__button__left:hover {
-  border: none;
-  background-image: url("../img/left__arrow.png");
-  background-repeat: no-repeat;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-  opacity: 0.6;
-}
 
-.main__banner__slider__button__right {
-  border: none;
-  background-image: url("../img/right__arrow.png");
-  background-repeat: no-repeat;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-}
+// .main__banner__slider__button__right {
 
-.main__banner__slider__button__right:hover {
-  border: none;
-  background-image: url("../img/right__arrow.png");
-  background-repeat: no-repeat;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-  opacity: 0.6;
-}
+// }
 
-.main__slider__buttons {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  width: 1000px;
-}
+// .main__banner__slider__button__right:hover {
+//   border: none;
+//   background-image: url("../img/right__arrow.png");
+//   background-repeat: no-repeat;
+//   width: 42px;
+//   height: 42px;
+//   cursor: pointer;
+//   opacity: 0.6;
+// }
 
-.main__banner__slider__circles {
-  background: none;
-  border: none;
-  background-image: url("../img/gray__circle.png");
-  background-repeat: no-repeat;
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
-}
+// .main__slider__buttons {
+//   margin-top: 20px;
+//   display: flex;
+//   justify-content: space-between;
+//   width: 1000px;
+// }
 
-.main__banner__slider__circles__ul {
-  display: flex;
-  gap: 0px 20px;
-  margin-left: -45px;
-}
+// .main__banner__slider__circles {
+//   background: none;
+//   border: none;
+//   background-image: url("../img/gray__circle.png");
+//   background-repeat: no-repeat;
+//   width: 12px;
+//   height: 12px;
+//   cursor: pointer;
+// }
+
+// .main__banner__slider__circles__ul {
+//   display: flex;
+//   gap: 0px 20px;
+//   margin-left: -45px;
+// }
 
 .about__me__section {
   background-color: #F6F6F6;
@@ -230,6 +208,7 @@ main {
 
 .send__message__fieldset__form {
   border: 2.5px solid #070707;
+  background-color: #fff;
 }
 
 .send__message__form__input__text__fieldset {
@@ -246,9 +225,14 @@ main {
 .send__message__fieldset__form__first__part {
   border: none;
   display: flex;
+  padding-top: 40px;
 }
 
-
+.send__message__fieldset__form__sec__part {
+  border: none;
+  display: flex;
+  // padding-top: 40px;
+}
 /* стилизация текста вокруг инпутов начата */
 .send__message__form__text__input__fieldset__label {
   font-family: 'Gilroy';
@@ -289,22 +273,50 @@ main {
 
 /* бордер у инпутов закончен */
 
-.send__message__form__input__text__fieldset__special__checkbox {
-  // position: absolute;
-  z-index: -1;
-  opacity: 0;
+// .send__message__form__input__text__fieldset__special__checkbox {
+//   // position: absolute;
+//   // z-index: -1;
+//   // opacity: 0;
+// }
+
+.sendMessageForm {
+  display: flex;
+  position: absolute;
+  top: 220%;
+  left: 29%;
+  // background-color: white;
+  z-index: 1;
 }
 
-.send__message__form__input__text__fieldset__special__checkbox+.send__message__form__text__input__fieldset__label__special {
-  
+.sendMessageFormClosed {
+  display: none;
 }
 
+// body {
+//   z-index: 1;
+//   background-color: #fff;
+//   top: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   right: 0px;
+//   width: auto;
+//   height: auto;    
+// }
 
+.sendMessageOffButton {
+  border: none;
+  // opacity: 0;
+  background-image: url('../img/CloseForm.png');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
 
-
-
-
-
+.send__message__div {
+  display: flex;
+  gap: 0px 10px;
+}
 
 
 
@@ -316,3 +328,185 @@ main {
 .send__message__form__legend {
   display: none;
 }
+
+// slider section style
+
+.container {
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.slider {
+  margin: 50px auto;
+}
+
+.slider__wrapper {
+  overflow: hidden;
+}
+
+.slider__inner-wrapper {
+  display: flex;
+  height: 100%;
+  transition: transform;
+}
+
+.slider__slide {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+
+  height: 465px;
+
+  font-size: 24px;
+  color: #fff;
+}
+
+.slider__slide:nth-child(4n + 1){
+  background-color: #e08dac;
+}
+
+.slider__slide:nth-child(4n + 2){
+  background-color: #45cb85;
+}
+
+.slider__slide:nth-child(4n + 3){
+  background-color: #f79824;
+}
+
+.slider__slide:nth-child(4n + 4){
+  background-color: crimson;
+}
+
+.slider__button-css-left {
+  border: none;
+  background-image: url("../img/left__arrow.png");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.slider__button-css-right {
+  border: none;
+  background-image: url("../img/right__arrow.png");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+// .main__banner__slider__button__left:hover {
+//   border: none;
+//   background-image: url("../img/left__arrow.png");
+//   background-repeat: no-repeat;
+//   width: 42px;
+//   height: 42px;
+//   cursor: pointer;
+//   opacity: 0.6;
+// }
+
+// .slider__button-css-right {
+//   border: none;
+//   background-image: url("../img/right__arrow.png");
+//   background-repeat: no-repeat;
+//   width: 42px;
+//   height: 42px;
+//   cursor: pointer;
+// }
+
+.slider__bottom-panel {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider__button {
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.slider__button-css-left:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+  user-select: none;
+}
+
+.slider__button-css-right:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+  user-select: none;
+}
+
+.slider__button-css-right:hover {
+  transition: all 0.5s;
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.slider__button-css-left:hover {
+  transition: all 0.5s;
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.slider__button:disabled {
+  background-color: transparent;
+  transition: all 0.5s;
+  opacity: 0.2;
+}
+
+.slider__dot {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.slider__dot:not(:last-child) {
+  margin-right: 5px;
+}
+
+.slider__dot_active {
+  background-color: black;
+}
+
+.slider:not(.slider__dot_active):hover, .slider__dot:not(.slider__dot_active):focus {
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// slider section style
