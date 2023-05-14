@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="google" content="notranslate">
+        <meta name="format-detection" content="telephone=no">
+        <title>start page</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <script>
+          var docElement = document.documentElement;
+          docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+        </script>
+        <!-- Favicon -->
+        <!-- build:css -->
+        <link href="css/style.min.css" rel="stylesheet">
+        <!-- endbuild -->
+      </head>
+<body>
+  @@include('blocks/header.html')
+  <section class="container">
+    <h1>My profile</h1>
+    <div class="profile">
+      <img class="profile__image" src="./img/nonavatar.png" alt="Non avatar icon">
+      <ul class="profile__data">
+        <li><p class="profile__characteristic">Name: </p><p></p></li>
+        <li><p class="profile__characteristic">Surname: </p><p></p></li>
+        <li><p class="profile__characteristic">Email: </p><p></p></li>
+        <li><p class="profile__characteristic">Password: </p><p></p></li>
+        <li><p class="profile__characteristic">Location: </p><p></p></li>
+        <li><p class="profile__characteristic">Age: </p><p></p></li>
+        <li>
+          <ul class="profile__btns">
+              <li><button class="profile__button" type="button">Change password</button></li>
+              <li><button class="profile__button" type="button">Change other data</button></li>
+              <li><button class="profile__button" type="button">Delete account</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>

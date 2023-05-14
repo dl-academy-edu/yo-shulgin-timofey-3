@@ -19,6 +19,10 @@
 @import "_blocks/footer";
 @import "_blocks/header";
 @import "blog";
+@import "profile";
+@import "_blocks/register.scss";
+@import "_blocks/signin.scss";
+
 
 /*
   Ниже пример подключения других блоков
@@ -318,13 +322,6 @@ main {
   gap: 0px 10px;
 }
 
-
-
-
-
-
-
-
 .send__message__form__legend {
   display: none;
 }
@@ -336,8 +333,9 @@ main {
   margin: 0 auto;
 }
 
-.slider {
+.slider {                
   margin: 50px auto;
+  // z-index: -1;
 }
 
 .slider__wrapper {
@@ -477,36 +475,23 @@ main {
   background-color: black;
 }
 
-.slider:not(.slider__dot_active):hover, .slider__dot:not(.slider__dot_active):focus {
-  background-color: gray;
+// .slider:not(.slider__dot_active):hover, .slider__dot:not(.slider__dot_active):focus {
+//   background-color: gray;
+// }
+// slider section style
+
+// sign in modal style 
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // z-index: 1;
+  background: #F6F6F6FC;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// slider section style
+.body_js__OH {
+  overflow: hidden;
+}

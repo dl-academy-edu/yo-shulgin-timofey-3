@@ -17,21 +17,25 @@
     <link href="css/style.min.css" rel="stylesheet">
     <!-- endbuild -->
   </head>
-  <body>
+  <body class="body_js">
     @@include('blocks/header.html')
+    @@include('blocks/register.html')
+    <!-- @@include('blocks/sign.html') -->
+    <div class="overlayOff"></div>
+    
     <main>
       <section>
         <div>
           <ul class="main__desc__about__me__div">
             <li class="main__section__name"><h2>Timofei Shulgin</h2></li>
-            <li class="main__desc__about__me"><p>Future front-end developer 15 years old, Tolyatti</p></li>
+            <li class="main__desc__about__me"><p>Future front-end developer ☭ years old, Tolyatti</p></li>
           </ul>
         </div>
         <div class="container">
           <div class="slider">
             <div class="slider__wrapper">
               <div class="slider__inner-wrapper">
-                <div class="slider__slide">This is 1 slide</div>
+                <div class="slider__slide"><a href="./profile.html">This is 1 slide</a></div>
                 <div class="slider__slide">This is 2 slide</div>
                 <div class="slider__slide">This is 3 slide</div>
                 <div class="slider__slide">This is 4 slide</div>
@@ -127,7 +131,8 @@
           </fieldset>
       </form>
       <button class="sendMessageOffButton" name="closeSendMess" type="button"></button>
-  </div>
+          </div>
+    <script src="js/modals.js"></script>
     <script src="js/app.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/script.js"></script>

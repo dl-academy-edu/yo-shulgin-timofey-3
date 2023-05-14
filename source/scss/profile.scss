@@ -1,0 +1,73 @@
+h1 {
+    margin-bottom: 40px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 57px;
+    color: #070707;
+}
+
+.profile__image {
+    margin-left: -16px;
+    margin-top: -19px;
+}
+
+.profile__data {
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    // grid-gap: 20px;
+}
+
+.profile {
+    display: flex;
+    gap: 0px 98px;
+}
+
+.profile__characteristic {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    // margin-top: -10px;
+    margin-bottom: -6px;
+}
+
+.profile__button {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    background-color: #fff;
+}
+
+.profile__button:hover {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.profile__btns {
+    margin-top: 14px;
+    margin-left: -46px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 18px;
+}
