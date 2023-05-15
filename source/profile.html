@@ -19,6 +19,10 @@
       </head>
 <body>
   @@include('blocks/header.html')
+  @@include('blocks/changePass.html')
+  @@include('blocks/register.html')
+  @@include('blocks/sign.html')
+  <!-- <div class="overlayOffS"></div>
   <section class="container">
     <h1>My profile</h1>
     <div class="profile">
@@ -32,13 +36,20 @@
         <li><p class="profile__characteristic">Age: </p><p></p></li>
         <li>
           <ul class="profile__btns">
-              <li><button class="profile__button" type="button">Change password</button></li>
-              <li><button class="profile__button" type="button">Change other data</button></li>
-              <li><button class="profile__button" type="button">Delete account</button></li>
+              <li><button class="profile__button-changePassword" type="button">Change password</button></li>
+              <li><button class="profile__button changeData" type="button">Change other data</button></li>
+              <li><button class="profile__button deleteAccount" type="button">Delete account</button></li>
           </ul>
         </li>
       </ul>
     </div>
-  </section>
+  </section> -->
+  <div class="edit__profile--js">
+    <div class="edit__profile__modal">
+      
+    </div>
+  </div>
+  <script src="./js/profileModals.js"></script>
+  <script src="js/modals.js"></script>
 </body>
 </html>

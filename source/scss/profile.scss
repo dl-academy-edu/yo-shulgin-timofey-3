@@ -64,6 +64,34 @@ h1 {
     background: black;
 }
 
+.profile__button-changePassword {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    background-color: #fff;
+}
+
+.profile__button-changePassword:hover {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
 .profile__btns {
     margin-top: 14px;
     margin-left: -46px;
@@ -71,3 +99,57 @@ h1 {
     flex-direction: column;
     grid-gap: 18px;
 }
+
+.overlayS {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: black;
+}
+
+// new form 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// new form 

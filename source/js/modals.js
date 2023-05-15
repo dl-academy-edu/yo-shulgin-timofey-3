@@ -42,6 +42,10 @@ closeBtnSign.addEventListener('click', () => {
     body.classList.remove('body_js__OH');
 });
 
-
+overlay.addEventListener('click', () => {
+    signForm.classList.remove('regForm--js-open');
+    overlay.classList.remove('overlay');
+    body.classList.remove('body_js__OH');
+});
 
 // открытие формы входа в аккаунт
