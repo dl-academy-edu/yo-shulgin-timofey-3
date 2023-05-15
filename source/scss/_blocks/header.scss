@@ -18,7 +18,7 @@ header {
 .header__ul__nav {
     margin-left: 706px;
     display: flex;
-    gap: 11px;
+    gap: 5px;
 }
 
 .header__ul__li__standart {
@@ -46,5 +46,20 @@ header {
 }
 
 .register__button:hover {
+    color: #070707;
+}
+
+.signIn__button {
+    border: none;
+    background: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.signIn__button:hover {
     color: #070707;
 }
