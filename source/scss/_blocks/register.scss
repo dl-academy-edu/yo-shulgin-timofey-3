@@ -1,0 +1,153 @@
+// register modal 
+
+.regForm--js {
+    display: none;
+}
+
+.regForm--js-open {
+    display: block;
+}
+
+.register__modal {
+    display: flex;
+    gap: 0px 10px;
+
+    position: absolute;
+    left: 462px;
+    top: 120px;
+    z-index: 1;
+
+    // display: none;
+}
+
+.register__form--red_star {
+    color: #EB3617;
+}
+
+.register__form--border {
+    border: 2.5px solid #070707;
+    background-color: white;
+}
+
+.register__form--label {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070707;
+}
+
+.register__form--input_text_email {
+    width: 600px;
+    height: 50px;
+    border: 2.5px solid #E5E5E5;
+}
+
+.register__form--input_text {
+    width: 290px;
+    height: 50px;
+    border: 2.5px solid #E5E5E5;
+}
+
+.register__form--input__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0px;
+}
+
+.register__form--input__wrapper-email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.register__form--wrapper__wrapper {
+    display: flex;
+    gap: 0px 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.register__form--checkbox__wrapper {
+    display: flex;
+    gap: 0px 12px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.register__form--label__checkbox {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E5E5E5;
+}
+
+.register__form--btn:disabled {
+    opacity: .4;
+}
+
+.register__form--btn {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-left: 40px;
+    margin-bottom: 28px;
+    background-color: #fff;
+}
+
+.register__form--btn:hover {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.register__form-close__btn {
+    border: none;
+    background: none;
+    background-image: url('../img/close_btn.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.register__form-close__btn:hover {
+    opacity: .5;
+}
+
+.register__form--checkbox {
+    opacity: .4;
+}
+
+.register__form--checkbox:checked {
+    opacity: 100%;
+}
+
+.register__form--checkbox:checked {
+    background-image: url('../img/checked.png');
+}
+// register modal 

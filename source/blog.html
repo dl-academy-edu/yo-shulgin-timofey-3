@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="google" content="notranslate">
+        <meta name="format-detection" content="telephone=no">
+        <title>start page</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <script>
+          var docElement = document.documentElement;
+          docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+        </script>
+        <!-- Favicon -->
+        <!-- build:css -->
+        <link href="css/style.min.css" rel="stylesheet">
+        <!-- endbuild -->
+      </head>
+<body>
+    @@include('blocks/header.html')
+    <main>
+        <section>
+        <h2 class="main__section__name__blog">My blog</h2>
+            <div>
+                <form action="" class="filter__form">
+                    <fieldset class="filter__section__tags">
+                        <legend class="filter__section__tags__legend">Tags</legend>
+                        <ul class="filter__section__tags__ul__checkboxes">
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                        </ul>
+                        <ul class="filter__section__tags__ul__checkboxes-sec">
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                            <li><input class="filter__section__tags__ul__checkbox__standart" type="checkbox"></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="filter__section__views">
+                        <legend class="filter__section__tags__legend">Views</legend>
+                        <div class="filter__radio__wrapper">
+                            <div class="filter__radio__label__wrapper"><input class="filter__input__radio" type="radio" name="100-2000" id=""><label class="filter__input__radio__label" for="100-2000"></label>100-500</label></div>
+                            <div class="filter__radio__label__wrapper"><input class="filter__input__radio" type="radio" name="100-2000" id=""><label class="filter__input__radio__label" for="100-2000"></label>500-1000</label></div>
+                            <div class="filter__radio__label__wrapper"><input class="filter__input__radio" type="radio" name="100-2000" id=""><label class="filter__input__radio__label" for="100-2000"></label>1000-2000</label></div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="filter__section__comments">
+                        <legend class="">Comments</legend>
+                            <div class="filter__comments__input__wrapper">
+                                <label for="0"><input class="filter__section__comments__ul__checkbox__standart" type="checkbox" name="0">0</label>
+                                <label for="0_1"><input class="filter__section__comments__ul__checkbox__standart" type="checkbox" name="0_1">0-1</label>
+                                <label for="1_50"><input class="filter__section__comments__ul__checkbox__standart" type="checkbox" name="1_50">1-50</label>
+                            </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    @@include('blocks/footer.html')
+    <script src="js/modals.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/validRegister.js"></script>
+</body>
+</html>

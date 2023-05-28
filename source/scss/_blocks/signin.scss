@@ -1,0 +1,91 @@
+// sign in modal style 
+.sign-in__modal {
+    display: flex;
+    gap: 0px 10px;
+    z-index: 1;
+    // background-color: #fff;
+}
+  
+.sign-in__form--red_star {
+    color: #EB3617;
+}
+  
+.sign-in__form--border {
+    width: 370px;
+    border: 2.5px solid #070707;
+    background-color: #fff;
+}
+  
+.sign-in__form--input_text {
+    width: 290px;
+    height: 50px;
+    border: 2.5px solid #E5E5E5;
+}
+
+.sign-in__form--label {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070707;
+}
+  
+.sign-in__form-close__btn {
+    border: none;
+    background: none;
+    background-image: url('../img/close_btn.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.sign-in__form-close__btn:hover {
+    opacity: .5;
+}
+
+.sign-in__form--input__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0px;
+    margin-left: 36px;
+}
+
+.sign-in__form--input__wrapper:nth-child(1) {
+    margin-top: 34px;
+    margin-bottom: 20px;
+}
+
+.sign-in__form--btn {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-left: 36px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    background-color: #fff;
+}
+
+.sign-in__form--btn:hover {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+// sign in modal style 

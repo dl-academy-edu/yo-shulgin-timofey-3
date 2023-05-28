@@ -1,0 +1,109 @@
+// new form 
+.edit__password__js-open {
+    display: block;
+}
+
+.edit__password__js {
+    display: none;
+}
+
+.edit__password__form-close__btn {
+    border: none;
+    background: none;
+    background-image: url('../img/close_btn.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.edit__password__form-close__btn:hover {
+    opacity: .5;
+}
+
+.edit__password__modal {
+    display: flex;
+    gap: 0px 10px;
+    position: absolute;
+    top: 171px;
+    left: 516px;
+    z-index: 20 ;
+}
+
+.edit__password__form--border {
+    background: #FFFFFF;
+    border: 2.5px solid #070707;
+}
+
+.edit__password__form--submit-btn {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-left: 40px;
+    margin-bottom: 28px;
+    background-color: #fff;
+}
+
+.edit__password__form--submit-btn:hover {
+    border: 2.5px solid #070707;
+    border-radius: 30px;
+    padding: 7px 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.edit__password__form__input__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 7px 0px;
+}
+
+.edit__password__form--input-password {
+    width: 290px;
+    height: 50px;
+    border: 2.5px solid #E5E5E5;
+}
+
+.edit__password__form__input__wrapper:nth-child(1) {
+    margin-top: 40px;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-bottom: 20px;
+}
+
+.edit__password__form__input__wrapper:nth-child(2) {
+    margin-bottom: 20px;
+    margin-left: 36px;
+}
+
+.edit__password__form__input__wrapper:nth-child(3) {
+    margin-bottom: 26px;
+    margin-left: 36px;
+}
+
+.edit__password__form--label-input {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070707;
+}
+
+.edit__password__form--label-star {
+    color: #EB3617;
+}
+// new form 

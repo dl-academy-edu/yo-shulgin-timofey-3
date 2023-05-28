@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 6px;
+    width: 1000px;
+}
+
+.header__home__font {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-top: 15px;
+}
+
+.header__ul__nav {
+    margin-left: 706px;
+    display: flex;
+    gap: 5px;
+}
+
+.header__ul__li__standart {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.header__ul__li__standart:hover {
+    color: #070707;
+}
+
+.register__button {
+    border: none;
+    background: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.register__button:hover {
+    color: #070707;
+}
+
+.signIn__button {
+    border: none;
+    background: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.signIn__button:hover {
+    color: #070707;
+}
