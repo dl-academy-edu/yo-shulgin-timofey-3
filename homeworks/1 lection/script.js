@@ -6,7 +6,9 @@ let brain = null;
 let x;
 let id = Symbol("id")
 let user = {
-    name: "Серёжа"
+    name: "Серёжа",
+    age: "4"
+
 }
 
 console.log(Number(num), String(num), Boolean(num));

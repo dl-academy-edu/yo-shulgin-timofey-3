@@ -91,6 +91,10 @@
     color: #E5E5E5;
 }
 
+.register__form--btn:disabled {
+    opacity: .4;
+}
+
 .register__form--btn {
     border: 2.5px solid #070707;
     border-radius: 30px;
@@ -136,10 +140,11 @@
 }
 
 .register__form--checkbox {
-    // position: absolute;
-    z-index: -1;
-    // opacity: 0;
-    // background-image: url('../img/before.png');
+    opacity: .4;
+}
+
+.register__form--checkbox:checked {
+    opacity: 100%;
 }
 
 .register__form--checkbox:checked {

@@ -311,12 +311,16 @@ main {
 
 .sendMessageOffButton {
   border: none;
-  // opacity: 0;
-  background-image: url('../img/CloseForm.png');
+  background: none;
+  background-image: url('../img/close_btn.png');
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
   cursor: pointer;
+}
+
+.sendMessageOffButton:hover {
+  opacity: .5;
 }
 
 .send__message__div {
@@ -396,25 +400,6 @@ main {
   height: 42px;
   cursor: pointer;
 }
-
-// .main__banner__slider__button__left:hover {
-//   border: none;
-//   background-image: url("../img/left__arrow.png");
-//   background-repeat: no-repeat;
-//   width: 42px;
-//   height: 42px;
-//   cursor: pointer;
-//   opacity: 0.6;
-// }
-
-// .slider__button-css-right {
-//   border: none;
-//   background-image: url("../img/right__arrow.png");
-//   background-repeat: no-repeat;
-//   width: 42px;
-//   height: 42px;
-//   cursor: pointer;
-// }
 
 .slider__bottom-panel {
   margin-top: 20px;
